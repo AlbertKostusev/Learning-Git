@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <button style={{marginRight:20}}>+1</button>
-          <button>-1</button>
+          <button style={{marginRight:20}}>add 1</button>
+          <button>remove 1</button>
         </div>
         <h2>Count: </h2>
         <button></button>
