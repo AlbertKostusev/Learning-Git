@@ -10,6 +10,7 @@ function App() {
           <button>-1</button>
         </div>
         <h2>Count: </h2>
+        {/* <button></button> */}
       </header>
     </div>
   );
