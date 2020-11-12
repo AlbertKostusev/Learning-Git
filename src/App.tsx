@@ -12,7 +12,7 @@ function App() {
           <button onClick={() => setState(state +1)}>Add 1</button>
         </div>
         <h2>Count: </h2>
-        <button></button>
+        {/* <button></button> */}
       </header>
     </div>
   );
