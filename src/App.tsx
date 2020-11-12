@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <button style={{marginRight:20}} onClick={() => setState(state +1)}>Add 1</button>
-          <button onClick={() => setState(state -1)}>Remove 1</button>
+          <button style={{marginRight:20}} onClick={() => setState(state -1)}>Remove 1</button>
+          <button onClick={() => setState(state +1)}>Add 1</button>
         </div>
         <h2>Count: </h2>
         <button></button>
