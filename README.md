@@ -1,33 +1,46 @@
-[![Build Status](https://travis-ci.org/yottaawesome/react-tsx-boilerplate.svg?branch=master)](https://travis-ci.org/yottaawesome/react-tsx-boilerplate) ![Dependencies](https://david-dm.org/yottaawesome/react-tsx-boilerplate.svg) ![Dev-Dependencies](https://david-dm.org/yottaawesome/react-tsx-boilerplate/dev-status.svg)
+# Getting Started with Create React App
 
-# React TSX Boilerplate
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Introduction
+## Available Scripts
 
-This repository is a minimal boilerplate repo for React, WebPack and TypeScript. It comes with `react-router-dom` and modular SCSS support set up, but does not come with Redux or any other React state management library.
+In the project directory, you can run:
 
-## Status
+### `npm start`
 
-This project is being continually maintained.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Using the code
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-The `src` folder contains a basic example app to get started.
+### `npm test`
 
-* Clone this repo.
-* Run `npm install` to install dependencies.
-* Run one of the following commands:
-    1. `npm run build-dev` to build the app in `development` mode.
-    2. `npm run build-prod` to build in `production` mode. Note that the prod build extracts the transpiled CSS into `dist/main.css` using `mini-css-extract-plugin`, whereas the dev build bundles it into the JS file.
-    3. `npm run start` to start the dev-server.
-* Make whatever additional changes you need for your project.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-You can optionally use `docker-compose` to start up a container that builds and watches the files. Note that the watch functionality does not work on Windows due to limitations that [prevent changes to files on a Windows host from being propagated to containers](https://forums.docker.com/t/file-system-watch-does-not-work-with-mounted-volumes/12038/20).
+### `npm run build`
 
-## Debugging
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Debugging settings are included for VS Code; you'll need the [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) extension.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Linting settings are also included for VS Code; you'll need the [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for VS Code.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-If you don't use VS Code for your development, you can safely delete the `.vscode` folder.
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
