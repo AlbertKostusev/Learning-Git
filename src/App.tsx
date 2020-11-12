@@ -6,10 +6,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <button>Add</button>
-          <button>Remove</button>
+          <button style={{marginRight:20}}>+1</button>
+          <button>-1</button>
         </div>
         <h2>Count: </h2>
+        {/* <button></button> */}
       </header>
     </div>
   );
