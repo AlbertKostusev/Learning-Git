@@ -45,7 +45,7 @@ git push -f
 # Nice to have aliases:
   git config --global alias.<Alias Name> '<Command>'
 
-  git config --global alias.log10 'log --pretty=oneline --abbrev-commit'
+  git config --global alias.log1 'log --pretty=oneline --abbrev-commit'
 $ git config --global alias.co checkout
 $ git config --global alias.br branch
 $ git config --global alias.ci commit
