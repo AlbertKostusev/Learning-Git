@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+// This is a long doc. comment, should be commited seperately
 function App() {
   return (
     <div className="App">
